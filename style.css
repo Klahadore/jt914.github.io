@@ -38,7 +38,7 @@
     z-index: 100;
     position: relative;
     color: white;
-    font-size: 40px;
+    font-size: 5vh;
     padding-top:2vh;
     font-weight: bold;
     font-family: "Poppins", Arial, sans-serif;
@@ -122,15 +122,31 @@
   left: 37.2%;
 
 }
+#twoleftsecret{
+  top: 20%;
+  left: 40%;
+}
+
 #threerighthover{
   top: 43%;
   left: 56%;
 }
+#threerightsecret{
+  top: 40%;
+  left: 50.8%;
+}
+
 
 #threelefthover{
   top: 36%;
   left: 56.2%;
 }
+
+#threeleftsecret{
+  top: 30%;
+  left: 50.8%;
+}
+
 
 #fourrighthover{
   top:28%;
@@ -141,6 +157,13 @@
   top:28%;
   left:64%
 }
+
+
+#fiverightsecret{
+  top: 30%;
+  left: 50.8%;
+}
+
 
 .rightsecret{
   top: 20.8%;
