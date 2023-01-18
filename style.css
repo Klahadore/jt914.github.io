@@ -36,6 +36,10 @@ body{
   background: #385170 !important;
 }
 
+#twoleftsecret{
+  padding: 8px !important;
+}
+
 #splashimg{
 
     
@@ -152,7 +156,7 @@ body{
   left: 56%;
 }
 #threerightsecret{
-  top: 40%;
+  top: 47%;
   left: 50.8%;
 }
 
@@ -173,6 +177,12 @@ body{
   left:34%
 }
 
+#fourrightsecret{
+  top:34%;
+  left:34%
+
+}
+
 #fiverighthover{
   top:28%;
   left:64%
@@ -180,7 +190,7 @@ body{
 
 
 #fiverightsecret{
-  top: 30%;
+  top: 35%;
   left: 50.8%;
 }
 
