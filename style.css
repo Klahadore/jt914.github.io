@@ -63,6 +63,7 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color: #ff894c;
+    
 }
 .hover:hover{
     color: #dc2f2f;
@@ -74,20 +75,24 @@
 }
 .lefthover:hover ~ .leftsecret{
     visibility: visible;
-    -webkit-animation: fadein 0.7s; 
+    /* -webkit-animation: fadein 0.7s; 
     -moz-animation: fadein 0.7s; 
      -ms-animation: fadein 0.7s; 
       -o-animation: fadein 0.7s; 
-         animation: fadein 0.7s;
+         animation: fadein 0.7s; */
+    transform: scale(3);
+
 
 }
 .righthover:hover ~ .rightsecret{
     visibility: visible;
-    -webkit-animation: fadein 0.7s; 
+    /* -webkit-animation: fadein 0.7s; 
     -moz-animation: fadein 0.7s; 
      -ms-animation: fadein 0.7s; 
       -o-animation: fadein 0.7s; 
-         animation: fadein 0.7s;
+         animation: fadein 0.7s; */
+    transform: scale(3);
+    
 
 }
 
@@ -97,9 +102,19 @@
   left: 49.8%;
 }
 
+#onerightsecret{
+  top: 16.8%;
+  left: 40.8%;
+}
+
 #tworighthover{
   top: 16%;
   left: 59%;
+}
+
+#tworightsecret{
+  top: 20%;
+  left: 40%;
 }
 
 #twolefthover{
@@ -141,8 +156,7 @@
 }
 
 .secret{
-    color: #ececec;
-    font-size: 2vh;
+    font-size: 0.6vh;
     font-weight: bold;
     font-family: "Poppins", Arial, sans-serif;
     visibility: hidden;
@@ -150,8 +164,15 @@
     z-index: 1000;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    transition: transform .5s;
+    background: #004346;
+    color:white;
+    border-radius: 25px;
+    padding:5px;
+    overflow: hidden;
+  
 
-    
+      
 }
 
 
@@ -257,10 +278,10 @@
     font-family: "Poppins", Arial, sans-serif;
     text-align: center;
     margin:auto;
-    width:130vh
+    width:130vh;
+    transition: all .2s ease-in-out; 
 
 }
-
 
 
 #pagebtn{
